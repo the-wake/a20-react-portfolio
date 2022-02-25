@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Blurb from './Blurb.js';
 import Navbar from './Navbar.js';
 import Banner from './Banner.js';
-import Portfolio from './Portfolio.js';
+import Portfolio from '../pages/Portfolio.js';
 
 function ContentContainer() {
   const [currentPage, setCurrentPage] = useState('Home');

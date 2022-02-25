@@ -9,7 +9,7 @@ function Project({ project }) {
         <img src={image} />
       </div>
       <div className="content-container">
-        <a href={link}><h4>{name}</h4></a>
+        <a href={link}><h3>{name}</h3></a>
         <p>{description}</p>
         <a href={repo} className="github-element">GitHub Repo</a>
       </div>
