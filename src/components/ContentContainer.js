@@ -18,10 +18,14 @@ function ContentContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+    <div className="body">
       <Banner />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       <div id=" " />
+      {renderPage()}
+      {renderPage()}
+      {renderPage()}
+      {renderPage()}
       {renderPage()}
     </div>
   )

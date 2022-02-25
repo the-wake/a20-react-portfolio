@@ -1,19 +1,22 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs fixed-top">
+    <ul className="navbar sticky-top">
       <li className="nav-item">
-        <a
-          href="# "
-          onClick={() => handlePageChange('Home')}
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >Home</a>
+        <Button
+        className="nav-button"
+        size="large"
+        variant="contained"
+        href="#/portfolio"
+        onClick={() => handlePageChange('Portfolio')}
+        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</Button>
       </li>
       <li className="nav-item">
         <a
           href="# "
-          onClick={() => handlePageChange('Portfolio')}
+          onClick={() => handlePageChange('Biography')}
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >Portfolio</a>
       </li>
