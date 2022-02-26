@@ -29,6 +29,21 @@ function Portfolio() {
           return <Project project={project} key={index} />
         })}
       </div>
+      <div className="projects-container">
+        {projects.map((project, index) => {
+          return <Project project={project} key={index} />
+        })}
+      </div>
+      <div className="projects-container">
+        {projects.map((project, index) => {
+          return <Project project={project} key={index} />
+        })}
+      </div>
+      <div className="projects-container">
+        {projects.map((project, index) => {
+          return <Project project={project} key={index} />
+        })}
+      </div>
     </div>
   )
 }
