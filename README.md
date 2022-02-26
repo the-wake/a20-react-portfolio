@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my React-based portfolio! Here you'll see a sampling of my work, along with a brief biography, contact information, and a downloadable resume.
 
-## Available Scripts
+![Example Screenshot](./public/example-screenshot.png)
 
-In the project directory, you can run:
+## Description
+This is a component-oriented design, rendering objects as needed on the fly. The single-page design allows for immediate load times and provides a slick user experience.
 
-### `npm start`
+[GitHub Repository](https://github.com/the-wake/a20-react-portfolio)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+No installation is needed. The application front-end is run through GitHub Pages using React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Functionality
+The page is built using React, React Bootstrap, and MUI. However, I borrowed only a couple of elements from the CDNs, and instead built most of the style from the ground-up to meet my needs and desires for the page layout.
 
-### `npm test`
+In addition to a brief bio, the page contains seven projects that are rendered as components in a Portfolio page. These all contain links to live applications (where relevant) and the GitHub repos. The Contact page renders a contact form, as well as an email link and LinkedIn page. Finally, Résumé downloads a PDF of my résumé to the user's device.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The page is heavily reactive, displaying well for displays down to 400px in width. The navbar uses the _sticky_ property to affix to the top of the screen once the user scrolls past it, so that they can easily jump from page to page. In addition, the banner image automatically adjusts itself to 90% of user viewport height, to provide a beautiful landing image without obstructing navigation.
 
-### `npm run build`
+## Tools Used
+* JavaScript
+* NPM
+* React
+* React Bootstrap (sparingly)
+* MUI (sparingly)
+* GitHub
+* GitBash
+* Coded in VS Code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Functionality
+* I'd like to have the links adjust the user's scroll position, but haven't found a good way of doing that yet.
+* More styling, especially reactive styling and transitions, would really help the page pop.
+* I'd like to add more projects as I create them.
