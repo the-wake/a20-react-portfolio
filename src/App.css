@@ -23,7 +23,6 @@
 
 .blurb-container {
   display: flex;
-  margin: 80px 40px;
   padding: .75rem;
   justify-content: space-evenly;
   background-color: white;
