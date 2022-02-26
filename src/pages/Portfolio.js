@@ -54,10 +54,10 @@ function Portfolio() {
     },
     {
       name: 'Social Media API',
-      link: 'https://github.com/the-wake/a18-social-media-api/settings/pages',
+      link: 'https://github.com/the-wake/a18-social-media-api',
       description: 'This back-end Mongoose-based API has a robust suite of queries allowing users to create accounts, post thoughts, and comment on each other\'s posts. The NoSQL nature of the database allows for greater flexibility in the data, and allows easy creation of connections between data points.',
       image: imgSocialMedia,
-      repo: 'https://github.com/the-wake/a18-social-media-api/settings/pages',
+      repo: 'https://github.com/the-wake/a18-social-media-api',
     },
   ]);
 
