@@ -35,14 +35,18 @@
   top: 0;
   z-index: 1020;
   display: flex;
-  margin: auto;
-  width: 98%;
+  width: 99%;
   flex-wrap: wrap;
+  margin: auto;
   justify-content: space-around;
   background: radial-gradient(circle, rgba(47,49,66,1) 0%, rgb(29, 28, 31) 100%);
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   box-shadow: 2px 2px #000000;
+  border-top: 2px solid black;
+  /* border-left: 2px solid rgb(0, 225, 255); */
+  border-bottom: 2px solid rgb(0, 225, 255);
+  border-right: 2px solid rgb(0, 225, 255);
 }
 
 .nav-item {
@@ -112,6 +116,7 @@
 #content-container {
   height: fit-content;
   block-size: fit-content;
+  margin-bottom: 40px;
 }
 
 .content-header {
@@ -186,6 +191,23 @@ form .button {
 
 .github-element {
   float: right;
+}
+
+#footer {
+  border-top: 2px solid rgb(0, 225, 255);
+  padding: 16px;
+  border-top-right-radius: 20px;
+}
+
+#footer p {
+  color: rgb(148, 148, 148);
+  display: inline;
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+#footer a {
+  color: rgb(0, 225, 225);
 }
 
 @media screen and (max-width: 992px) {
