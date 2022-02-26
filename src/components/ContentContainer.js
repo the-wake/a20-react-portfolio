@@ -3,6 +3,7 @@ import Blurb from './Blurb.js';
 import Navbar from './Navbar.js';
 import Banner from './Banner.js';
 import Portfolio from '../pages/Portfolio.js';
+import Footer from './Footer.js';
 
 function ContentContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -27,6 +28,7 @@ function ContentContainer() {
       {renderPage()}
       {renderPage()}
       {renderPage()}
+      <Footer />
     </div>
   )
 }
