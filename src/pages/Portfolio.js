@@ -1,4 +1,3 @@
-// rfce
 import React, { useState } from 'react';
 import Project from '../components/Project.js';
 import imgCrawler from '../assets/crawler.jpg'
@@ -19,26 +18,39 @@ function Portfolio() {
       image: '../assets/dnd.jpg',
       repo: 'https://github.com/the-wake/project-1-dnd',
     },
+    {
+      name: '',
+      link: '',
+      description: '',
+      image: '',
+      repo: '',
+    },
+    {
+      name: '',
+      link: '',
+      description: '',
+      image: '',
+      repo: '',
+    },
+    {
+      name: '',
+      link: '',
+      description: '',
+      image: '',
+      repo: '',
+    },
+    {
+      name: '',
+      link: '',
+      description: '',
+      image: '',
+      repo: '',
+    },
   ]);
 
   return (
     <div>
       <h2 className="content-header">Portfolio</h2>
-      <div className="projects-container">
-        {projects.map((project, index) => {
-          return <Project project={project} key={index} />
-        })}
-      </div>
-      <div className="projects-container">
-        {projects.map((project, index) => {
-          return <Project project={project} key={index} />
-        })}
-      </div>
-      <div className="projects-container">
-        {projects.map((project, index) => {
-          return <Project project={project} key={index} />
-        })}
-      </div>
       <div className="projects-container">
         {projects.map((project, index) => {
           return <Project project={project} key={index} />

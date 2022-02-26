@@ -6,7 +6,7 @@
   background:url("./assets/background.jpg") no-repeat center fixed;
   -webkit-background-composite: cover;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   color: whitesmoke;
   text-align: center;
@@ -65,19 +65,23 @@
 
 .active {
   background: radial-gradient(circle, rgba(46,49,52,1) 0%, rgba(93,20,20,1) 100%);
+  border-color: black;
+  box-shadow: 2px 2px #4d4d4d;
 }
 
 .nav-item:hover {
   color: white;
   background: radial-gradient(circle, rgb(54, 56, 58) 0%, rgb(100, 18, 18) 100%);
+  border-color: black;
+  box-shadow: 2px 2px #2e7b81;
 }
 
-.nav-item a {
+.custom-navbar a {
   color: #DEDEDE;
   text-decoration: none;
 }
 
-.nav-item a:hover {
+.custom-navbar a {
   color: gray;
 }
 
@@ -158,12 +162,20 @@
 }
 
 form {
-  max-width: 400px;
+  max-width: 600px;
   margin: auto;
 }
 
 .form-group {
-  margin: 12px 0;
+  margin: 12px auto;
+}
+
+.form-group-narrow {
+  max-width: 400px;
+}
+
+textarea {
+  height: 200px;
 }
 
 form .button {
